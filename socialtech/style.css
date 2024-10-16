@@ -1,0 +1,38 @@
+ body{
+    font-family: "Source Sans Pro","Hiragino Kaku Gothic ProN",Meiryo,Arial, 
+ }
+
+ P{
+    font-size: 15px;
+ }
+
+ /* PC、スマホ共通スタイル*/
+ body{
+    max-width: 1080;
+    min-width: 960;
+    margin: 0 auto 0;
+ }
+ 
+ /*ヘッダー*/
+ header{
+    display: flex;
+    justify-content: space-between
+ }
+
+ /*ナビゲーションのリンクの装飾設定*/
+ #nav-pc > a {
+   text-decoration: none;
+   margin-left: 20px;
+ }
+ #nav-pc > a:link {
+   color: #0d0d0d;
+ }
+ #nav-pc > a:visited {
+   color: #0d0d0d;
+ }
+#nav-pc > a:hover {
+   color: #0d0d0d;
+}
+#nav-pc > a:active {
+   color: #0d0d0d;
+}
